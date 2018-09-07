@@ -1,0 +1,65 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    align-items: flex-start;
+}
+header{
+    display: flex;
+    justify-content: left;
+    align-content: flex-end;
+}
+nav ul{
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li i{
+    color: grey;
+}
+
+.top{
+    display: flex;
+    background-color:whitesmoke;
+    height: 50%;
+    margin-bottom: 3px;
+    
+}
+.bottom{
+    display:flex;
+    background-color: aquamarine;
+    height: 50%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 50px 50px;
+    height: 50%;
+}
+
+input#submit{
+    border: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: none;
+    color:orangered;
+    border-color: orangered;
+}
+
+.flex-container hr{
+    color: orangered;
+
+}
